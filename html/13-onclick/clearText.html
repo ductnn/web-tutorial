@@ -1,0 +1,23 @@
+// Viết code sao cho khi ấn vào nút `Clear`, chữ trong input sẽ bị xoá
+// Kiểm tra bằng cách gõ chữ vào ô tìm kiếm vào ấn `Clear`
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Clear Text</title>
+</head>
+<body>
+	<input type="text" id="searchBox" placeholder="Search..." />
+	<button>Search</button>
+	<button onclick="clearItem()">Clear</button>
+
+	<script type="text/javascript">
+		function clearItem () {
+			var input = document.getElementById('searchBox');
+			var newItem = input.value;
+			input.value =''; 
+		};
+	</script>
+</body>
+</html>
