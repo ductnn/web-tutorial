@@ -1,0 +1,24 @@
+// Tạo 1 button mới nằm dưới p
+// Viết code sao cho khi click button đó thì giá trị biến `count` tăng 1 đơn vị và nội dung của `counter` cũng thay đổi theo`
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Count</title>
+</head>
+<body>
+	<p id="count">count</p>
+	<button onclick="countUp()">UP</button>
+	<script type="text/javascript">
+		var count = 0;
+		var counter = document.getElementById('count');
+		counter.innerHTML = count;
+		function countUp () {
+			count ++;
+			counter.innerHTML = count; 
+		};
+	</script>
+
+</body>
+</html>
