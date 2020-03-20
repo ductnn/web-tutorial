@@ -1,0 +1,20 @@
+// Viết code sao cho khi nhập tên ai đó vào ô input, click vào nút Say Hi! sẽ hiển thị ra alert box với nội dung: Hi kèm theo tên người đó. Ví dụ: Hi Coders.Tokyo
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Alert Box</title>
+</head>
+<body>
+	<input type="text" id="name" placeholder="Enter your name" />
+	<button onclick="alertBox()">Say Hi!</button>
+	<script type="text/javascript">
+		function alertBox () {
+			var input = document.getElementById('name');
+			var name = input.value;
+			alert("Say hi " + name); 
+		};
+	</script>
+</body>
+</html>
