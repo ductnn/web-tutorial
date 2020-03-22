@@ -5,6 +5,11 @@
 	<title>Change event</title>
 </head>
 <body>
+	<span>Age: </span>
+	<select id="age-filter">
+		<option>22</option>
+		<option>20</option>
+	</select>
 	<table id="student-table">
 	</table>
 	<script type="text/javascript">
@@ -16,7 +21,21 @@
 			{ name: "Duc", age: 22}
 		];
 
-		function render () {
+		var ageFilter = document.getElementById('age-filter');
+		ageFilter.addEventListener('change', onAgeFilterChange);
+
+		function onAgeFilterChange () {
+			// get current vale of the select
+			var selectedAge = parseInt(ageFilter.value);
+			// filter the student list by the selected value
+			var filteredStudents = students.filter((student) => {
+				return student.age === selectedAge;
+			});
+			// render
+			render(filteredStudents); 
+		};
+
+		function render (students) {
 			var studentTable = document.getElementById('student-table');
 			var content = students.map(function(student) {
 				return '<tr><td>' + student.name + 
