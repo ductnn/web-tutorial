@@ -12,6 +12,12 @@
 		var url_comment = 'http://localhost:8081/comments';
 		var url_profile = 'http://localhost:8081/profile';
 
+		var oldObj = {
+			title: "post-test",
+			author: "ductn"
+		};
+
+		// GET
 		axios.get(url_profile)
 			.then(function(res) {
 				document.write(JSON.stringify(res.data));
@@ -20,31 +26,41 @@
 				console.log('Something Error');
 			});
 
-		var addBtn = document.getElementById('add-btn');
-		addBtn.addEventListener('click', addItem);
+		// POST
+		axios.post(url_post, oldObj)
+			.then(function(res){
+				console.log(res.data)
+			})
+			.catch(function(err) {
+				console.log('Something Error'); 
+			});
 
-		function addItem () {
-			// get value of the input
-			var input = document.getElementById('new-item');
-			var newItem = input.value;
-			// add to todoList array
-			todoList.push(newItem);
-			// re-render
-			render();
-			input.value = '';
-			// store data
-			
-		};
+		//PUT
+		axios.put('http://localhost:8081/posts/2', oldObj)
+			.then(function(res){
+				console.log(res.data)
+			})
+			.catch(function(err) {
+				console.log('Something Error'); 
+			});
 
-		function render (items) {
-			var htmlList = document.getElementById('todo-list');
-			var content = items.map(function(item){
-				return '<li>' + item.name + '</li>'
-			});	 
+		//PATCH
+		axios.patch('http://localhost:8081/posts/2', oldObj)
+			.then(function(res){
+				console.log(res.data)
+			})
+			.catch(function(err) {
+				console.log('Something Error'); 
+			});
 
-			htmlList.innerHTML = content.join('');
-		};
-
+		//DELETE
+		axios.delete('http://localhost:8081/posts/4', oldObj)
+			.then(function(res){
+				console.log(res.data)
+			})
+			.catch(function(err) {
+				console.log('Something Error'); 
+			})
 		//render();
 		
 	</script>
