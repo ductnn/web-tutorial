@@ -1,6 +1,10 @@
 body {
-  background-color: #DDD;
-  font-family: sans-serif
+  background-color: #fff;
+  font-family: sans-serif;
+  width: 400px;
+  height: 200px;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item {
@@ -8,13 +12,26 @@ body {
   padding-top: 20px;
   padding-left: 20px;
   border-radius: 14px;
-  height: 100px;
-  width: 400px;
   color: #4d4d4d;
 }
 
 p {
   color: #666;
   font-size: 20px;
+  padding-left: 5px;
+}
+
+.list-avatar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
   padding-left: 20px;
+}
+
+li{
+  margin: 5px;
+}
+img{
+  border-radius: 10%;
+  border: 0px;
 }
