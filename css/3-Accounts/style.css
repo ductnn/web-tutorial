@@ -1,0 +1,54 @@
+.container {
+  font-family: sans-serif;
+  width: 500px;
+}
+
+hr.dash {
+  border-top: 1px dashed #858A85;
+}
+
+.components {
+  display: flex;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.images {
+  width: 70px;
+  height: 70px;
+  background-image: url("https://picsum.photos/id/237/200/300");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 10px 15px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.info-title {
+  font-size: 20px;
+  color: #767676;
+  padding-bottom: 8px;
+}
+
+.email {
+  color: #adadae;
+}
+
+.icon {
+  padding-right: 30px;
+  font-size: 30px;
+  color: #f88f93;
+}
+
+
+
+
+
+
+
+
