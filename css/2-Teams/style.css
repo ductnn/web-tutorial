@@ -1,0 +1,88 @@
+.container{
+  width: 500px;
+  height: 350px;
+  background-color: #E4FBE2;
+  font-family: sans-serif;
+  border-radius: 30px;
+  margin: 8px;
+}
+
+.intro {
+  display: flex;
+  margin: 0 40px;
+  align-items: center;
+  border-bottom: 1.5px solid #d5eade;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.rocket {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #00c57a;
+  color: #fff;
+  padding: 15px 18px;
+  border-radius: 25%;
+}
+
+.team-goals {
+  padding-left: 12px;
+  flex-grow: 1;
+}
+
+.team-1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5c7667;
+  padding-bottom: 8px;
+}
+
+.info .team-2 {
+  font-size: 15px;
+  color: #A2ACA2;
+  font-weight: bold;
+}
+
+.items .item-icon-1 {
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  align-items: center;
+  color: #00c57a;
+  padding: 15px 18px;
+}
+
+.info .title-1 {
+  font-size: 18px;
+  color: #7e9689;
+}
+
+.images {
+  display: flex;
+}
+
+.images .image-item {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://picsum.photos/100/100");
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+  border-radius: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
