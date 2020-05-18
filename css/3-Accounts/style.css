@@ -2,6 +2,13 @@
   font-family: sans-serif;
   width: 500px;
 }
+.acc {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
 
 hr.dash {
   border-top: 1px dashed #858A85;
