@@ -1,24 +1,22 @@
-.container{
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #e1f3e8;
   width: 500px;
-  height: 350px;
-  background-color: #E4FBE2;
-  font-family: sans-serif;
   border-radius: 30px;
-  margin: 8px;
 }
 
-.intro {
+.container .items {
   display: flex;
   margin: 0 40px;
   align-items: center;
-  border-bottom: 1.5px solid #d5eade;
+  border-bottom: 1px solid #d5eade;
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-.rocket {
+.items .item-icon {
   display: flex;
-  font-size: 15px;
+  font-size: 20px;
   justify-content: center;
   align-items: center;
   background-color: #00c57a;
@@ -27,22 +25,21 @@
   border-radius: 25%;
 }
 
-.team-goals {
+.items .info {
   padding-left: 12px;
   flex-grow: 1;
 }
 
-.team-1 {
+.info .title {
   font-size: 20px;
   font-weight: bold;
   color: #5c7667;
   padding-bottom: 8px;
 }
 
-.info .team-2 {
+.info .content {
   font-size: 15px;
-  color: #A2ACA2;
-  font-weight: bold;
+  color: #91a79b;
 }
 
 .items .item-icon-1 {
@@ -72,17 +69,3 @@
   margin: 5px;
   border-radius: 15%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
