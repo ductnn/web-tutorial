@@ -1,0 +1,64 @@
+.container {
+  font-family: sans-serif;
+  width: 400px;
+  background-color: #2a3945;
+  border-radius: 30px;
+  padding: 30px 40px;
+}
+
+input {
+  padding: 10px 130px 10px 10px;
+  font-size: 20px;
+  background-color: #55616a;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.components {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.content {
+  padding-left: 30px;
+  font-size: 18px;
+  color: 	#fff;
+}
+
+.icon {
+  padding: 12px 15px;
+  font-size: 25px;
+  border-radius: 25%;
+  color: #fff;
+}
+
+.add {
+  background-color: #00c57a;
+}
+
+.comment {
+  background-color: #208fd8;
+}
+
+.depend {
+  background-color: #ebc100;
+  padding: 11px 16px;
+}
+
+.copy {
+  background-color: #784ec7;
+  padding: 11px 15px;
+}
+
+
+
+
