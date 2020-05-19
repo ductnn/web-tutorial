@@ -1,0 +1,139 @@
+.container {
+  font-family: sans-serif;
+  border: 1px solid #e5e5e5;
+  width: 600px;
+}
+
+.title {
+  display: flex;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: 	#505e6a;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.title-name {
+  flex-grow: 1;
+}
+
+.component {
+  padding: 20px 25px;
+}
+
+.images {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.image-1 {
+  width: 100px;
+  height: 60px;
+  background-color: #fff;
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/visa-1527435-1298265.png");
+  border-radius: 4px;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #b7d5fb;
+}
+
+.image-2 {
+  width: 100px;
+  height: 60px;
+  background-color: #fff;
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/mastercard-27-711792.png");
+  margin-left: 10px;
+  border-radius: 4px;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #b7d5fb;
+}
+
+.card {
+  padding-bottom: 25px;
+}
+
+.card-title {
+  font-size: 19px;
+  color: 	#2a3945;
+  padding-bottom: 9px;
+}
+
+.card .input input {
+  border: 1px solid #a8daff;
+  padding: 9px 250px 9px 9px;
+  color: #6e7983;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.card-items {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.card-item-1 input{
+  border: 1px solid #a8daff;
+  padding: 8px 0 8px 8px;
+  color: #6e7983;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.card-item-2 {
+  margin-left: 10px;
+}
+
+.card-item-3 {
+  margin-left: 10px;
+}
+
+.card-item-2 input{
+  width: 80px;
+  border: 1px solid #a8daff;
+  padding: 8px 0 8px 8px;
+  color: #6e7983;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.card-item-3 input{
+  width: 130px;
+  border: 1px solid #a8daff;
+  padding: 8px 0 8px 8px;
+  color: #6e7983;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer .icon {
+  font-size: 20px;
+  color: #56a6e1;
+}
+
+.footer .content {
+  font-size: 18px;
+  padding-left: 8px;
+  color: #606060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
