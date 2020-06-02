@@ -1,0 +1,20 @@
+.album-cover {
+  width: 128px;
+  height: 128px;
+  font-family: Arial, sans-serif;
+  background-color: #DDD;
+  background-image: url('https://loremflickr.com/320/240');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.album-cover .overlay {
+  height: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 8px; 
+  box-sizing: border-box;
+}
