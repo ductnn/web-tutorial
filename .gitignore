@@ -1,2 +1,6 @@
 *node_modules
 *DS_Store
+
+# Gulp img
+js/gulp_img/_img/
+js/gulp_img/assets/img/posts
